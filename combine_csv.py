@@ -10,10 +10,6 @@ the two CSV files are combined on "First Name" and "Last Name" columns
 """
 
 import pandas as pd
-import numpy as np
-
-
-all_data = pd.DataFrame()
 
 df1 = pd.read_csv("CSV1.csv") # first file
 df2 = pd.read_csv("CSV2.csv") # second file
